@@ -11,19 +11,22 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form action =" ./test.jsp" method = "post">
+        <form action ="./field1.jsp" method = "post">
               <!-- formタグで括られた入力項目はこちら -->
-              <input type ="text" name ="txtName">
-              <input type ="radio" name ="rdoSample">
-              <input type ="text" name ="txtName">
-              <input type ="text" name ="txtName">
-              <input type ="text" name ="txtName">
+              名前 <input type ="text" name ="userName"><br>　
+              性別　男<input type ="radio" name ="rdoSampleman" value ="男" checked><br>
+                           
+              性別　女<input type ="radio" name ="rdoSampleman" value ="女" ><br>
+                   
+              趣味1<input type ="text" name ="hobby1">
+              趣味2<input type ="text" name ="hobby2">
+              趣味3<input type ="text" name ="hobby3">
               <input type ="checkbox" name ="chkTest">
               <input type ="button" name ="btnTest">
               <input type ="submit" name ="btnSubmit">
               
               <select name ="cmeList"></select>
-              <textarea name ="mulText"></textarea>
+              <textarea name ="mulText"></textarea>-->
         </form>
     </body>
 </html>
